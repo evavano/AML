@@ -1,5 +1,5 @@
 # Data formats in Earth Sciences 1
-## Geographic coordinate systems
+### Geographic coordinate systems
 
 There are two important coordinate systems to describe positions on earth:
 1)  Geographic coordinate system
