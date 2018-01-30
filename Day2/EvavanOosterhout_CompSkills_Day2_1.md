@@ -1,4 +1,4 @@
-# Data formats in Earth Sciences: Geographic coordiante system
+# Data formats in Earth Sciences: Geographic coordiate systems
 
 There are two important coordinate systems to describe positions on earth:
 1)  Geographic coordinate system
@@ -15,7 +15,7 @@ Coordinates within a Geographical coordinate system can be expressed in differen
 -   Latitude lines run east-west from 0-90 degrees on both the northern hemisphere and southern hemisphere. The northern hemisphere is denoted by the letter N and the southern hemisphere is denoted by the letter S. Instead of a letter, a minus sign in front of the degrees can be written for the southern hemisphere.
 -   Longitude lines run from pole to pole and run from 0 to 180 to the west and east. East is denoted positive, west is denoted negative, or respectively by the letters E and W.
 
-### Coordinates in earth sciences
+### Coordinates systems in earth sciences
 Coordinates are important in earth sciences because most research in earth sciences includes spatial data:
 -   it is often important to know exactly where a sample  is taken from
 -   In geological research it is important to note strike and dip, using coordinates 
