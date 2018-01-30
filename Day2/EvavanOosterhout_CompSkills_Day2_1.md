@@ -19,5 +19,5 @@ Coordinates within a Geographical coordinate system can be expressed in differen
 Coordinates are important in earth sciences because most research in earth sciences includes spatial data:
 -   it is often important to know exactly where a sample  is taken from
 -   In geological research it is important to note strike (and dip). The strike is denoted as a degree. 
--   geographical information systems run on spatial data
+-   to use geographical information system, you need spatial data and set coordinate systems
 
