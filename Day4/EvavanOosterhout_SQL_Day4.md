@@ -33,11 +33,14 @@ LIMIT 1
 Answer: 
 Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
 
-*Code mamal database* 
+*Code mamal database*
+
 CREATE TABLE "MamFuncDat" ("MSW3_ID" INTEGER, "Scientific" VARCHAR, "MSWFamilyLatin" VARCHAR, "Diet-Inv" INTEGER, "Diet-Vend" INTEGER, "Diet-Vect" INTEGER, "Diet-Vfish" INTEGER, "Diet-Vunk" INTEGER, "Diet-Scav" INTEGER, "Diet-Fruit" INTEGER, "Diet-Nect" INTEGER, "Diet-Seed" INTEGER, "Diet-PlantO" INTEGER, "Diet-Source" VARCHAR, "Diet-Certainty" VARCHAR, "ForStrat-Value" VARCHAR, "ForStrat-Certainty" VARCHAR, "ForStrat-Comment" VARCHAR, "Activity-Nocturnal" INTEGER, "Activity-Crepuscular" INTEGER, "Activity-Diurnal" INTEGER, "Activity-Source" VARCHAR, "Activity-Certainty" VARCHAR, "BodyMass-Value" FLOAT, "BodyMass-Source" VARCHAR, "BodyMass-SpecLevel" INTEGER)
 
 *Code mamal source database*
+
 CREATE TABLE "MamFuncDatSources" ("Ref_ID" VARCHAR, "Full Reference" VARCHAR)
 
 *Code bird database*
+
 CREATE TABLE "BirdFuncDat" ("SpecID" INTEGER, "PassNonPass" VARCHAR, "IOCOrder" VARCHAR, "BLFamilyLatin" VARCHAR, "BLFamilyEnglish" VARCHAR, "BLFamSequID" INTEGER, "Taxo" VARCHAR, "Scientific" VARCHAR, "English" VARCHAR, "Diet-Inv" INTEGER, "Diet-Vend" INTEGER, "Diet-Vect" INTEGER, "Diet-Vfish" INTEGER, "Diet-Vunk" INTEGER, "Diet-Scav" INTEGER, "Diet-Fruit" INTEGER, "Diet-Nect" INTEGER, "Diet-Seed" INTEGER, "Diet-PlantO" INTEGER, "Diet-5Cat" VARCHAR, "Diet-Source" VARCHAR, "Diet-Certainty" VARCHAR, "Diet-EnteredBy" VARCHAR, "ForStrat-watbelowsurf" INTEGER, "ForStrat-wataroundsurf" INTEGER, "ForStrat-ground" INTEGER, "ForStrat-understory" INTEGER, "ForStrat-midhigh" INTEGER, "ForStrat-canopy" INTEGER, "ForStrat-aerial" INTEGER, "PelagicSpecialist" INTEGER, "ForStrat-Source" VARCHAR, "ForStrat-SpecLevel" INTEGER, "ForStrat-EnteredBy" VARCHAR, "Nocturnal" INTEGER, "BodyMass-Value" FLOAT, "BodyMass-Source" VARCHAR, "BodyMass-SpecLevel" INTEGER, "BodyMass-Comment" VARCHAR, "Record-Comment" VARCHAR)
