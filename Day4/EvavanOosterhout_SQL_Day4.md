@@ -4,7 +4,7 @@ For this exercise data was downloaded from [study by Wilman et al. (2014)](https
  
 
 Research questions:
-1)  What is the difference in body weight for nocturnal and non nocturnal birds?
+**1)  What is the difference in body weight for nocturnal and non nocturnal birds?**
 
 SQL query:
 ```
@@ -19,7 +19,7 @@ Nocturnal:  269.2 gram
 
 Non nocturnal: 285.27 gram
 
-2)  What is the most referenced book in the mamal dataset?
+**2)  What is the most referenced book in the mamal dataset?**
 
 SQL query:
 ```
@@ -46,3 +46,6 @@ CREATE TABLE "MamFuncDatSources" ("Ref_ID" VARCHAR, "Full Reference" VARCHAR)
 *Code bird database*
 
 CREATE TABLE "BirdFuncDat" ("SpecID" INTEGER, "PassNonPass" VARCHAR, "IOCOrder" VARCHAR, "BLFamilyLatin" VARCHAR, "BLFamilyEnglish" VARCHAR, "BLFamSequID" INTEGER, "Taxo" VARCHAR, "Scientific" VARCHAR, "English" VARCHAR, "Diet-Inv" INTEGER, "Diet-Vend" INTEGER, "Diet-Vect" INTEGER, "Diet-Vfish" INTEGER, "Diet-Vunk" INTEGER, "Diet-Scav" INTEGER, "Diet-Fruit" INTEGER, "Diet-Nect" INTEGER, "Diet-Seed" INTEGER, "Diet-PlantO" INTEGER, "Diet-5Cat" VARCHAR, "Diet-Source" VARCHAR, "Diet-Certainty" VARCHAR, "Diet-EnteredBy" VARCHAR, "ForStrat-watbelowsurf" INTEGER, "ForStrat-wataroundsurf" INTEGER, "ForStrat-ground" INTEGER, "ForStrat-understory" INTEGER, "ForStrat-midhigh" INTEGER, "ForStrat-canopy" INTEGER, "ForStrat-aerial" INTEGER, "PelagicSpecialist" INTEGER, "ForStrat-Source" VARCHAR, "ForStrat-SpecLevel" INTEGER, "ForStrat-EnteredBy" VARCHAR, "Nocturnal" INTEGER, "BodyMass-Value" FLOAT, "BodyMass-Source" VARCHAR, "BodyMass-SpecLevel" INTEGER, "BodyMass-Comment" VARCHAR, "Record-Comment" VARCHAR)
+
+*Code bird source database*
+CREATE TABLE "BirdFuncDatSources" ("Ref_ID" VARCHAR, "Full Reference" VARCHAR)
