@@ -14,7 +14,9 @@ WHERE nocturnal is not null
 GROUP BY Nocturnal
 ```
 Answer:
+
 Nocturnal:  269.2 gram
+
 Non nocturnal: 285.27 gram
 
 2)  What is the most referenced book in the mamal dataset?
