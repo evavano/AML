@@ -5,7 +5,7 @@ For this exercise data was downloaded from [study by Wilman et al. (2014)](https
 
 Research questions:
 
-**1)  What is the difference in body weight for nocturnal and non nocturnal birds?**
+1)  **What is the difference in body weight for nocturnal and non nocturnal birds?**
 
 SQL query:
 ```
@@ -20,7 +20,7 @@ Nocturnal:  269.2 gram
 
 Non nocturnal: 285.27 gram
 
-**2)  What is the most referenced book in the mamal dataset?**
+2)  **What is the most referenced book in the mamal dataset?**
 
 SQL query:
 ```
