@@ -4,6 +4,7 @@ For this exercise data was downloaded from [study by Wilman et al. (2014)](https
  
 
 Research questions:
+
 **1)  What is the difference in body weight for nocturnal and non nocturnal birds?**
 
 SQL query:
