@@ -16,7 +16,7 @@ The United States Geological Survey (USGS) detects but does not generally locate
 4) Removing al collumsn and rows with no data or metadata
 5) creating this metadata file
 
-OpenRefine JSON code:
+Datacleaning openRefine JSON code:
 
 [
   {
