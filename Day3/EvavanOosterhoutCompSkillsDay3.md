@@ -17,6 +17,7 @@ The United States Geological Survey (USGS) detects but does not generally locate
 5) creating this metadata file
 
 OpenRefine JSON code:
+
 [
   {
     "op": "core/text-transform",
